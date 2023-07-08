@@ -28,7 +28,7 @@ public class SquareEveryDigit {
             return 0;
         }
         StringBuilder sb = new StringBuilder();
-        Collections.reverse(result)
+        Collections.reverse(result);
         for (Integer num : result) {
             sb.append(num);
         }
